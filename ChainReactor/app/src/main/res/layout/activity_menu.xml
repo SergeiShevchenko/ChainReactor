@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jeffchenga.cr.MenuActivity"
+    tools:ignore="MergeRootFrame"
+    android:background="@drawable/chr"
+    android:visibility="visible">
+
+    <Button
+        android:layout_width="182dp"
+        android:layout_height="121dp"
+        android:text="Settings"
+        android:id="@+id/settingsButton"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="184dp"
+        android:layout_height="125dp"
+        android:text="Classic game"
+        android:id="@+id/startClassic"
+        android:layout_gravity="center_horizontal|top" />
+
+    <Button
+        android:layout_width="178dp"
+        android:layout_height="128dp"
+        android:text="Download new color scheme"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal|bottom" />
+</FrameLayout>
